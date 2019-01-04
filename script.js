@@ -1,5 +1,5 @@
 console.log(123);
-document.getElementById('London').style.display = "block";
+document.getElementById('first').style.display = "block";
 
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;

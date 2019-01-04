@@ -351,6 +351,7 @@ input::placeholder {
     min-width: 82%;
     display: inline-block;
     background-image: url('lines.jpg');
+    background-repeat: repeat;
     position: relative;
 }
 
