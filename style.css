@@ -40,11 +40,16 @@ section {
     text-transform: uppercase;
     font-weight: bold;
     padding-bottom: 75px;
+    line-height: 1.3;
 }
 .col-50 p {
     color: #fff;
     font-size: 18px;
     font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.img-tagline{
+    max-width: 100%;
 }
 
 .input-line {
@@ -199,24 +204,6 @@ input::placeholder {
 
 /* Media Query */
 
-@media (max-width: 1200px) {
-    .col-50 .text-wrap {
-        width: 440px;
-    }
-    .col-50 h1 {
-        font-size: 34px;
-    }
-    .col-50 .text-wrap input {
-        height: 55px;
-
-    }
-    .col-50 .text-wrap button {
-        height: 48px;
-    }
-    .input-line {
-        bottom: 85px;
-    }
-}
 
 /***************************************************************************** Maja style */
 
@@ -436,3 +423,98 @@ input::placeholder {
     background-color: #fff;
     height: 1px;
 }
+
+
+/* Media Query */
+@media (max-width: 1200px) {
+
+    .container-text{
+        max-width: 1100px;
+    }
+    .col-50 .text-wrap {
+        width: 440px;
+    }
+    .col-50 h1 {
+        font-size: 34px;
+    }
+    .col-50 .text-wrap input {
+        height: 55px;
+    }
+    .col-50 .text-wrap button {
+        height: 48px;
+    }
+    .input-line {
+        bottom: 85px;
+    }
+
+    input::placeholder {
+        font-size: 15px;
+    }
+
+    .button{
+        font-size: 11px;
+    }
+
+    .text{
+        font-size: 26px;
+    }
+
+    .btn-span{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 960px){
+    .container-text{
+        max-width: 900px;
+    }
+
+    .numbers:after{
+        width: 20%;
+    }
+
+    .numbers:before{
+        width: 20%;
+    }
+
+    .text{
+        font-size: 24px;
+        left: 50px;
+        top: -32px;
+    }
+
+    .btn-span{
+        right: 50px;
+        font-size: 13px;
+    }
+
+    .social-line {
+        width: 29px;
+    }
+
+    .footer .col-left{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 960px) and (min-width: 600px){
+    .container-text{
+        max-width: 590px;
+    }
+
+    .col-50 .text-wrap input{
+        width: 80%;
+        padding-left: 20px;
+    }
+
+    input::placeholder {
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .col-50 p{
+        font-size: 15px;
+        width: 90%;
+    }
+}
+
